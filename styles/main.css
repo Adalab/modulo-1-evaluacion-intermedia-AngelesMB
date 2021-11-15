@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+:root {
+  --main-font: "Rubik", sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-img {
+  width: 155px;
+}
+.header-menu {
+  list-style-type: none;
+  display: flex;
+}
+.header-menu-item,
+.header-menu-item:visited {
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.main {
+  height: 100vh;
+  background-color: #3cdbc0;
+  font-family: var(--main-font);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-title {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
