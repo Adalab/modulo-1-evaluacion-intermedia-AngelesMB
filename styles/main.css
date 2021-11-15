@@ -20,6 +20,7 @@
 .header-menu {
   list-style-type: none;
   display: flex;
+  margin-bottom: 13px;
 }
 .header-menu-item,
 .header-menu-item:visited {
@@ -37,9 +38,11 @@
   color: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .main-title {
+  transform: translate(0, 20%);
+}
+.main-title-line {
   font-size: 30px;
   display: block;
   text-align: center;
